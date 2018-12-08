@@ -1,0 +1,32 @@
+@text-color: #1a1a1a;
+
+.folder {
+	width: 150px;
+	float: left;
+	margin: 10px;
+
+	&__link {
+		width: 100%;
+		text-transform: uppercase;
+		color: @text-color;
+		font-size: 12px;
+		height: 40px;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	&__cover {
+		height: 100px;
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+.folders {
+	&__list {
+		overflow: hidden;
+		width: 100%;
+	}
+}
